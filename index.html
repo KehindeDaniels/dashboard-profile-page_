@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.svg" type="image/x-icon">
+  <link href="dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+    
+    <!-- ******************PROFILE********************** -->
+    <section id="pofile" class="flex flex-col items-end gap-4 max-w-7xl mx-auto">
+        <!-- Images -->
+        <div class="images">
+            <img src="images/Background.png" class="object-cover object-center" data-aos="fade-down" alt="background images">
+            <div class="profile__images flex flex-col gap-2 -mt-16 sm:-mt-20 ml-6 sm:ml-8" data-aos="fade-up">
+                <img src="images/profile_img.png" class="w-28 h-28 sm:w-36 sm:h-36 border-4 rounded-full border-almostwhite" alt="profile images">
+                <h1 class="text-2xl sm:text-3xl font-bold">Eniola Adesewa</h1>
+            </div>
+        </div>
+
+        <!-- Contact details -->
+        <div class="contact flex items-center gap-6 mr-4 mt-[-85px] sm:mr-6"data-aos="fade-left" >
+            <div class="call flex justify-between items-center gap-2 sm:gap-4 border-2 rounded-full border-gray-400 p-2 sm:px-6 sm:py-4 sm:rounded-md">
+                <img src="images/call-icon.svg" class="sm:w-6" alt="call icon">
+                <p class="text-sm font-semibold hidden sm:block sm:text-xl">Call</p>
+            </div>
+            <div class="message border-2 rounded-md border-gray-400 flex items-center gap-2 py-2 px-4 sm:py-4 sm:px-6 sm:gap-4">
+                <img src="images/message-icon.svg" class="sm:w-6" alt="message icon">
+                <p class="text-sm font-semibold sm:text-lg">Message</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************MAIN SECTION********************** -->
+    <section id="main" class="mt-16">
+        <!-- Table headings -->
+        <div class="table__head border-b-[1px] border-gray-400 pb-6" data-aos="fade-down" data-aos-anchor-placement="top-bottom">
+            <div class="tablehead__container max-w-7xl mx-auto relative">
+                <div class="table__head--container flex justify-between mx-8 sm:justify-start sm:gap-16">
+                    <h2 class=" text-xl text-black font-semibold after:absolute after:content-[''] after:w-16 after:h-[2px] after:-bottom-6 after:left-0 after:ml-8 after:bg-black ">Profile</h2>
+                    <h2 class="text-xl text-gray-300 font-semibold">Gender</h2>
+                    <h2 class="text-xl text-gray-300 font-semibold">Recognition</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table body -->
+        <div class="table__body mt-8 text-xl font-semibold flex flex-col gap-6 sm:flex-row sm:gap-16 max-w-7xl mx-auto">
+            <!-- Table body division 1 -->
+            <div class="division-1 flex flex-col gap-8" data-aos="fade-right">
+                <div class="item text-center flex flex-col items-center xs:items-start xs:flex-row xs:text-left xs:justify-between mx-8 sm:flex-col sm:gap-2">
+                    <h3 class="text-gray-400">Phone</h3>
+                    <p class="">+(234) 243 456</p>
+                </div>
+                <div class="item text-center flex flex-col items-center xs:items-start xs:flex-row xs:text-left xs:justify-between mx-8 sm:flex-col sm:gap-2">
+                    <h3 class="text-gray-400">Title</h3>
+                    <p class="">Senior front end Developer</p>
+                </div>
+                <div class="item text-center flex flex-col items-center xs:items-start xs:flex-row xs:text-left xs:justify-between mx-8 sm:flex-col sm:gap-2">
+                    <h3 class="text-gray-400">Location</h3>
+                    <p class="">Lagos, Nigeria</p>
+                </div>
+                <div class="item text-center flex flex-col items-center xs:items-start xs:flex-row xs:text-left xs:justify-between mx-8 sm:flex-col sm:gap-2">
+                    <h3 class="text-gray-400">Salary</h3>
+                    <p class="">$145,000</p>
+                </div>
+            </div>
+
+            <!-- Table body division 2 -->
+            <div class="division-2 flex flex-col gap-8" data-aos="fade-left">
+                <div class="item text-center flex flex-col items-center xs:items-start xs:flex-row xs:text-left xs:justify-between mx-8 sm:flex-col sm:gap-2">
+                    <h3 class="text-gray-400">Email</h3>
+                    <p class="">eniolaadesewa@tryme.com</p>
+                </div>
+                <div class="item text-center flex flex-col items-center xs:items-start xs:flex-row xs:text-left xs:justify-between mx-8 sm:flex-col sm:gap-2">
+                    <h3 class="text-gray-400">Team</h3>
+                    <p class="">Product Development</p>
+                </div>
+                <div class="item text-center flex flex-col items-center xs:items-start xs:flex-row xs:text-left xs:justify-between mx-8 sm:flex-col sm:gap-2">
+                    <h3 class="text-gray-400">Sils</h3>
+                    <p class="">Oasis, 4th floor</p>
+                </div>
+                <div class="item text-center flex flex-col items-center xs:items-start xs:flex-row xs:text-left xs:justify-between mx-8 sm:flex-col sm:gap-2">
+                    <h3 class="text-gray-400">Birthday</h3>
+                    <p class="">August 21, 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div class="about max-w-7xl mx-auto pb-6" data-aos="fade-up">
+            <div class="about_container text-xl mx-8 mt-6 font-semibold flex flex-col gap-2 items-center text-center xs:items-start xs:text-left">
+                <h3 class="text-gray-400">About</h3>
+                <p>A lead front end Developer who hsa strong technical skillset,  having a good working team spirit.</p>    
+            </div>
+        </div>
+    </section>   
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
